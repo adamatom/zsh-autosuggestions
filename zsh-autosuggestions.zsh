@@ -661,7 +661,7 @@ _zsh_autosuggest_strategy_directory_history() {
 
 	# Get the history items that match
 	# - (r) subscript flag makes the pattern match on values
-	suggestion="${history_dir[(r)$prefix*]}"
+	suggestion="${history_dir[(R)$prefix*]}"
 
 }
 
